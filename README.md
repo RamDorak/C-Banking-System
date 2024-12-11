@@ -22,10 +22,10 @@ Confirm Password: Re-enter to validate.
 
 <h2>2. Validate User Inputs</h2>
 
-2. Ensure Completeness
+1. Ensure Completeness
 Verify all required fields are provided.
 
-1. Password Validation
+2. Password Validation
 Check if the password meets complexity requirements (e.g., minimum length, special characters).
 Confirm that the two password inputs match.
 
