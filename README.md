@@ -1,5 +1,5 @@
 # C-Banking-System
-<h1>1. Gather User Inputs</h1>
+<h2>1. Gather User Inputs</h2>
 
 1.1 User Details
 Collect the following information from the user:
@@ -20,7 +20,7 @@ Prompt the user to set a password:
 Password: Ensure the password meets security standards.
 Confirm Password: Re-enter to validate.
 
-#2. Validate User Inputs
+<h2>2. Validate User Inputs</h2>
 
 2.1 Ensure Completeness
 Verify all required fields are provided.
@@ -29,7 +29,7 @@ Verify all required fields are provided.
 Check if the password meets complexity requirements (e.g., minimum length, special characters).
 Confirm that the two password inputs match.
 
-#3. Generate Unique Account ID
+<h2>3. Generate Unique Account ID</h2>
 
 3.1 Account ID Generation
 Generate a unique identifier for the account.
@@ -37,7 +37,7 @@ Ensure the account ID does not conflict with existing accounts in the system.
 3.2 Storage of Account ID
 
 The ID will be used to link user details, account data, and password securely.
-#4. Store User Details
+<h2>4. Store User Details</h2>
 
 4.1 Create UserDetails Object
 Use the UserDetails class to encapsulate user-specific information:
@@ -49,7 +49,7 @@ Unique ID
 4.2 Store Object
 The UserDetails object is included as part of the account data structure.
 
-#5. Store Account Details
+<h2>5. Store Account Details</h2>
 
 Create Account Object
 Instantiate an account object (SavingsAccount or CurrentAccount).
@@ -62,7 +62,7 @@ Initial balance
 5.2 Add to System Storage
 Store the account object in a vector or map within the BankSystem class.
 
-#6. Store Password Securely
+<h2>6. Store Password Securely</h2>
 
 6.1 Password Hashing
 Use the hashPass method in the PassStore class to hash the plaintext password.
@@ -70,7 +70,7 @@ Use the hashPass method in the PassStore class to hash the plaintext password.
 Store the hashed password in the passMan unordered map using the account ID as the key:
 passStore.addPassword(accountID, hashedPassword);
 
-#7. Confirm Account Creation
+<h2>7. Confirm Account Creation</h2>
 
 7.1 Success Message
 Provide the user with confirmation of account creation:
