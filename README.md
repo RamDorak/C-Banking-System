@@ -69,16 +69,3 @@ Use the hashPass method in the PassStore class to hash the plaintext password.
 6.2 Link Password with Account
 Store the hashed password in the passMan unordered map using the account ID as the key:
 passStore.addPassword(accountID, hashedPassword);
-
-<h2>7. Confirm Account Creation</h2>
-
-7.1 Success Message
-Provide the user with confirmation of account creation:
-
-Account ID
-Any additional instructions for first-time login or usage.
-7.2 Error Handling
-If any step fails:
-
-Return appropriate error messages.
-Rollback any partial operations if necessary.
