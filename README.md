@@ -1,5 +1,5 @@
 # C-Banking-System
-#1. Gather User Inputs
+<h1>1. Gather User Inputs</h1>
 
 1.1 User Details
 Collect the following information from the user:
