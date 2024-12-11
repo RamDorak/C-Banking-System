@@ -1,4 +1,4 @@
-# C-Banking-System
+# CPP-Banking-System
 <h2>1. Gather User Inputs</h2>
 
 1. User Details
